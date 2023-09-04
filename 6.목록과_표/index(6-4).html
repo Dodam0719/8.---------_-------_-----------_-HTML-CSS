@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid gray;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,25 +17,25 @@
     <h2>Table</h2>
     <table>
       <tr>
-        <th>나라이름</th>
-        <th>수도</th>
-        <th>인구</th>
+        <th scope="col">나라이름</th>
+        <th scope="col">수도</th>
+        <th scope="col">인구</th>
       </tr>
 
       <tr>
-        <th>한국</th>
+        <th scope="row">한국</th>
         <td>서울</td>
         <td>5100만</td>
       </tr>
 
       <tr>
-        <th>미국</th>
+        <th scope="row">미국</th>
         <td>워싱턴 D.C</td>
         <td>3억</td>
       </tr>
 
       <tr>
-        <th>태국</th>
+        <th scope="row">태국</th>
         <td>방콕</td>
         <td>6900만</td>
       </tr>
