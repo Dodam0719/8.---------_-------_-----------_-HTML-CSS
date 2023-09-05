@@ -10,11 +10,17 @@
     <h2>반응형 이미지</h2>
 
     <!-- prettier-ignore -->
-    <img
+    <!-- <img
       src="images(7-4)/large.png"
       srcset="images(7-4)/small.png 300w, images(7-4)/medium.png 450w, images(7-4)/large.png 600w"
       sizes="(min-width: 600px) 600px, (min-width: 450px) 450px, 300px"
       alt="responsive images"
-    />
+    /> -->
+    <picture>
+      <source media="(max-width: 450px)" srcset="images(7-4)/small.png" />
+      <source media="(max-width: 600px)" srcset="images(7-4)/medium.png" />
+      <source srcset="images(7-4)/large.png" />
+      <img src="images(7-4)/large.png" alt="responsive images" />
+    </picture>
   </body>
 </html>
