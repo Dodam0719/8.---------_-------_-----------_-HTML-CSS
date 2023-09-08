@@ -4,3 +4,7 @@ Pseudo-Class Selector
 
   :not()
 */
+
+input {
+  background-color: indianred;
+}
