@@ -14,11 +14,14 @@ input[type="submit"] {
 }
 
 /* 3. [attr^=value] */
-a[href^="http://"]
+a[href^="https://"]
 {
-  color: red;
+  font-style: italic;
 }
 
 /* 4. [attr$=value] */
+a[href$=".com"] {
+  color: silver;
+}
 
 /* 5. [attr*=value] */
