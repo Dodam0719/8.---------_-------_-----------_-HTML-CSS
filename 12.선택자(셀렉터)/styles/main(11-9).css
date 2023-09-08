@@ -4,3 +4,21 @@ Pseudo-Class Selector
 
   hover, active, focus
 */
+
+input[type="button"] {
+  background-color: skyblue;
+  border: none;
+}
+
+input[type="button"]:hover {
+  background-color: teal;
+  color: white;
+}
+
+input[type="button"]:active {
+  background-color: red;
+}
+
+input[type="button"]:focus {
+  background-color: blue;
+}
