@@ -25,3 +25,6 @@ a[href$=".com"] {
 }
 
 /* 5. [attr*=value] */
+a[href*="example"] {
+  color: sienna;
+}
