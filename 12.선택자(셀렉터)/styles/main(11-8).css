@@ -4,3 +4,11 @@ Pseudo-Class Selector
 
   link, visited
 */
+
+a:link {
+  color: tomato;
+}
+
+a:visited {
+  color: yellowgreen;
+}
