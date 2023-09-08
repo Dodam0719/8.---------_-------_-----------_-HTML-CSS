@@ -5,6 +5,6 @@ Pseudo-Class Selector
   :not()
 */
 
-input:not([type="password"]) {
+input:not([type="submit"]) {
   background-color: indianred;
 }
