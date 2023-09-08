@@ -11,3 +11,8 @@ li:first-child {
 .movie:first-child {
   font-size: 32px;
 }
+
+/* 2. last-child */
+span:last-child {
+  color: tomato;
+}
