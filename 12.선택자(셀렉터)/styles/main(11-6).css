@@ -11,5 +11,8 @@ p:first-of-type {
 }
 
 /* 2. :last-of-type */
+p:last-of-type {
+  color: blue;
+}
 
 /* 3. :nth-of-type() */
