@@ -7,3 +7,9 @@ Attribute Selector
 a[target] {
   color: hotpink;
 }
+
+/* 2. [attr=value] */
+a[href="https://example.org"]
+{
+  color: indigo;
+}
