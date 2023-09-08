@@ -3,6 +3,9 @@ h2 {
   color: purple;
 }
 
-h3 {
+/* ID Selector */
+#welcome-title {
   color: red;
 }
+
+/* Class Selector */
