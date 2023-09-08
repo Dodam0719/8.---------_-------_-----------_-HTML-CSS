@@ -6,6 +6,9 @@ first-child VS first-of-type
 */
 
 /* 1. :first-of-type */
+p:first-of-type {
+  color: red;
+}
 
 /* 2. :last-of-type */
 
