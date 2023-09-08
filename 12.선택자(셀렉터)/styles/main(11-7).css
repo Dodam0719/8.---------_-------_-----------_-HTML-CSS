@@ -5,6 +5,6 @@ Pseudo-Class Selector
   :not()
 */
 
-input {
+input:not(.pw) {
   background-color: indianred;
 }
