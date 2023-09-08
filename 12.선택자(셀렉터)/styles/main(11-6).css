@@ -6,7 +6,11 @@ first-child VS first-of-type
 */
 
 /* 1. :first-of-type */
-p:first-of-type {
+/* p:first-of-type {
+  color: red;
+} */
+
+.movie:first-of-type {
   color: red;
 }
 
