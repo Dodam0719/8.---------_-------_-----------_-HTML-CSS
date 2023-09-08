@@ -9,11 +9,16 @@ a[target] {
 }
 
 /* 2. [attr=value] */
-a[href="https://example.org"]
-{
-  color: indigo;
-}
-
 input[type="submit"] {
   background-color: green;
 }
+
+/* 3. [attr^=value] */
+a[href^="http://"]
+{
+  color: red;
+}
+
+/* 4. [attr$=value] */
+
+/* 5. [attr*=value] */
