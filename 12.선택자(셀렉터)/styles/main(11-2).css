@@ -5,10 +5,14 @@ h2 {
 
 /* ID Selector */
 #welcome-title {
-  color: red;
+  color: green;
 }
 
 /* Class Selector */
 .blue {
   color: blue;
+}
+
+.red {
+  color: red;
 }
