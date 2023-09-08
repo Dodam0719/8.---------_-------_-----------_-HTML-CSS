@@ -7,3 +7,7 @@ Pseudo-Class Selector
 li:first-child {
   color: green;
 }
+
+.movie:first-child {
+  font-size: 42px;
+}
