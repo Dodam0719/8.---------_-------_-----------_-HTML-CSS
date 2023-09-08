@@ -20,3 +20,6 @@ p:last-of-type {
 }
 
 /* 3. :nth-of-type() */
+p:nth-of-type(2) {
+  color: green;
+}
