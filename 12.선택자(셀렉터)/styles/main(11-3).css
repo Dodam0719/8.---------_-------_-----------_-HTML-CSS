@@ -2,3 +2,8 @@
 Attribute Selector
   (속성 선택자)
 */
+
+/* 1. [attr] */
+a[target] {
+  color: hotpink;
+}
