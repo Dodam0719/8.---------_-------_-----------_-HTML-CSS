@@ -5,3 +5,9 @@ font-size,
 font-style,
 font-weight
 */
+
+.text {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
