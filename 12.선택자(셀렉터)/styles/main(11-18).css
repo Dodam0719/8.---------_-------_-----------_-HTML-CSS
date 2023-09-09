@@ -9,3 +9,19 @@
 #box {
   color: blue;
 }
+
+.class-box {
+  color: red;
+}
+
+/* 명시도 순서
+
+!important(는 진짜 불가피한 상황에만 사용) >
+inline style >
+ID >
+Class / Attribute / Pseudo Class >
+Type (tag) >
+* >
+inherited
+
+*/
