@@ -14,6 +14,10 @@
   color: red;
 }
 
+div {
+  color: purple !important;
+}
+
 /* 명시도 순서
 
 !important(는 진짜 불가피한 상황에만 사용) >
