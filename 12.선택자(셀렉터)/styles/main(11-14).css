@@ -14,3 +14,9 @@ code ~ .red {
 .red + div {
   background-color: blue;
 }
+
+/* 3. 그룹화 */
+p,
+span {
+  color: purple;
+}
