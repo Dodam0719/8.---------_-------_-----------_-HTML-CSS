@@ -1,3 +1,7 @@
 /*
   범용 선택자 (Universal Selector)
 */
+
+*.red {
+  color: red;
+}
