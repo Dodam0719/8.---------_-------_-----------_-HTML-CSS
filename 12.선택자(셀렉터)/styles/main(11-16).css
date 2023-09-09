@@ -1,0 +1,12 @@
+/*
+  상속 제어하기 - initial, inherit, unset
+*/
+
+div {
+  border: 1px solid silver;
+  margin: 2px;
+}
+
+.parent {
+  color: blue;
+}
