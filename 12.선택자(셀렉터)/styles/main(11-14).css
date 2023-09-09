@@ -11,3 +11,6 @@ code ~ .red {
 }
 
 /* 2. 인접 형제 선택자 결합 (+) */
+.red + div {
+  background-color: blue;
+}
