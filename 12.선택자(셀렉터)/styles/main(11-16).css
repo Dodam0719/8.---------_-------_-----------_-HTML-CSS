@@ -9,8 +9,9 @@ div {
 
 .parent {
   color: blue;
+  font-size: 7px;
 }
 
 .child2 {
-  color: initial;
+  all: initial;
 }
