@@ -10,3 +10,7 @@ div {
 .parent {
   color: blue;
 }
+
+.child2 {
+  color: initial;
+}
