@@ -6,7 +6,7 @@ Selector Combinators
 */
 
 /* 1. 일반 형제 선택자 결합 (~) */
-code ~ p {
+code ~ .red {
   color: red;
 }
 
