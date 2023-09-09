@@ -4,3 +4,8 @@ Pseudo-Element Selector
 
   first-letter, first-line, selection
 */
+
+.lorem::first-letter {
+  color: red;
+  font-size: 30px;
+}
