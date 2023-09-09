@@ -2,6 +2,6 @@
   범용 선택자 (Universal Selector)
 */
 
-*.red {
+p + * {
   color: red;
 }
