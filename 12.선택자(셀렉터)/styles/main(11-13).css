@@ -5,6 +5,6 @@ Selector Combinators
   하위, 자식, 형제 선택자, 그룹화
 */
 
-ul li:last-of-type {
+#list li:last-of-type {
   color: red;
 }
