@@ -1,0 +1,21 @@
+/*
+단위와 값
+
+상대길이 - %
+*/
+
+body {
+  margin: 0;
+}
+
+.parent {
+  width: 50%;
+  height: 100px;
+  background-color: blue;
+}
+
+.child {
+  width: 50%;
+  height: 30px;
+  background-color: indianred;
+}
