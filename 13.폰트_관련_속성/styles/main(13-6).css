@@ -4,15 +4,6 @@
 text-align
 */
 
-p,
-span {
-  background-color: rosybrown;
-}
-
-.block {
-  text-align: center;
-}
-
-.inline {
+.container {
   text-align: center;
 }
