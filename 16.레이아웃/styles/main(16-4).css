@@ -1,0 +1,11 @@
+/*
+레이아웃
+
+position과 Normal Flow
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  border: solid;
+}
