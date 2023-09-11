@@ -1,0 +1,14 @@
+/*
+테두리 -
+border-sizing
+*/
+
+.box {
+  width: 300px;
+  height: 200px;
+
+  padding: 20px;
+  border: 30px solid blue;
+
+  background-color: skyblue;
+}
