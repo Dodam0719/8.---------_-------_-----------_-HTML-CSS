@@ -1,0 +1,15 @@
+/*
+크기 - width, height
+*/
+
+.block {
+  width: 300px;
+  height: 100px;
+  background-color: wheat;
+}
+
+.inline {
+  width: 300px;
+  height: 100px;
+  background-color: yellowgreen;
+}
