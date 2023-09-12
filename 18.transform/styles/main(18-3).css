@@ -1,0 +1,9 @@
+/*
+transform (변형)
+*/
+
+#bolt {
+  width: 300px;
+
+  transform: rotate(0.5turn) scale(0.5);
+}
