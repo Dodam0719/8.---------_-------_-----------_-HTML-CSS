@@ -1,0 +1,10 @@
+/*
+background
+*/
+
+.box {
+  height: 400px;
+
+  background: no-repeat center/80%
+    url("https://interactive-examples.mdn.mozilla.net/media/examples/moon.jpg");
+}
