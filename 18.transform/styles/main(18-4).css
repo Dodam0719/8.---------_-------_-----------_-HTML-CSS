@@ -1,0 +1,9 @@
+/*
+transform (변형)
+*/
+
+#bolt {
+  width: 300px;
+
+  transform: translate(50%, 30%);
+}
