@@ -1,0 +1,11 @@
+/*
+transform (변형)
+*/
+
+#bolt {
+  width: 400px;
+
+  /* transform: scale(0.5); */
+  /* transform: scaleX(0.5); */
+  transform: scaleY(0.5);
+}
