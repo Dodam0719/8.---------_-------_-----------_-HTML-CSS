@@ -1,0 +1,15 @@
+/*
+opacity
+*/
+
+.floating-box {
+  width: 150px;
+  height: 150px;
+
+  position: fixed;
+  top: 10px;
+  left: 10px;
+
+  /* background-color: rgba(100, 100, 100, 0.5); */
+  opacity: 0.5;
+}
