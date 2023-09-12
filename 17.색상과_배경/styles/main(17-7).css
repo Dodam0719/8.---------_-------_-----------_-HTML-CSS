@@ -10,5 +10,5 @@ background
   background-color: cadetblue;
 
   /* contain / cover */
-  background-size: auto;
+  background-size: cover;
 }
