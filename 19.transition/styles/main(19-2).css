@@ -12,8 +12,8 @@ transition-property, transition-duration
   font-size: 50px;
   color: white;
 
-  transition-property: all;
-  transition-duration: 0.5s;
+  transition-property: background-color;
+  transition-duration: 2s;
 }
 
 .box:hover {
