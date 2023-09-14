@@ -9,14 +9,15 @@
   background-color: rgb(204, 253, 225);
   border-radius: 30px;
 
-  animation: my-first-animation 2s infinite alternate;
+  animation: my-first-animation 2s infinite;
 }
 
 @keyframes my-first-animation {
-  from {
-    width: 100px;
+  0% {
   }
-  to {
+  50% {
     width: 300px;
+  }
+  100% {
   }
 }
