@@ -8,7 +8,7 @@ container - flex-wrap, flex-flow
   height: 500px;
   border: 5px dashed orange;
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-flow: column wrap;
 }
 
 .item {
