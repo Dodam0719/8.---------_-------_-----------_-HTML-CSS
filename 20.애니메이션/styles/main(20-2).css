@@ -14,10 +14,13 @@
 
 @keyframes my-first-animation {
   0% {
+    font-size: 20px;
   }
   50% {
     width: 300px;
+    font-size: 80px;
   }
   100% {
+    font-size: 20px;
   }
 }
