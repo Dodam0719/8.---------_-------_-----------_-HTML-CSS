@@ -23,5 +23,6 @@ container - align-self
 }
 
 .item:nth-child(4) {
-  align-self: flex-start;
+  height: auto;
+  align-self: stretch;
 }
