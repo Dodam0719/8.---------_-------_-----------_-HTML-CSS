@@ -1,0 +1,22 @@
+/*
+애니메이션
+*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 10px solid seagreen;
+  background-color: rgb(204, 253, 225);
+  border-radius: 30px;
+
+  animation: my-first-animation 2s infinite alternate;
+}
+
+@keyframes my-first-animation {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 300px;
+  }
+}
