@@ -10,12 +10,12 @@ container - align-items
   display: flex;
 
   justify-content: space-between;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .item {
   width: 50px;
-  /* height: 50px; */
+  height: 50px;
   margin: 5px;
   background-color: paleturquoise;
   border: 3px solid blue;
