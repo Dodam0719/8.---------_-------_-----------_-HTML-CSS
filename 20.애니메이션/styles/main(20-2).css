@@ -8,7 +8,9 @@
   border: 10px solid seagreen;
   background-color: rgb(204, 253, 225);
   border-radius: 30px;
+}
 
+.box:hover {
   animation: my-first-animation 2s infinite;
 }
 
