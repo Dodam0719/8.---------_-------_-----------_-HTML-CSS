@@ -7,7 +7,7 @@ container - justify-content
 .container {
   border: 5px dashed orange;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .item {
