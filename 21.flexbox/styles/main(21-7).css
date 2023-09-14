@@ -22,7 +22,3 @@ Item - flex-grow
 .item:nth-child(2) {
   flex-grow: 2;
 }
-
-.item:nth-child(3) {
-  flex-grow: 1;
-}
