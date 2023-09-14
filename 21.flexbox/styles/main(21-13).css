@@ -10,7 +10,7 @@ container - align-content
   display: flex;
   flex-wrap: wrap;
 
-  align-content: flex-end;
+  align-content: center;
 }
 
 .item {
