@@ -7,7 +7,7 @@ Container - display
 .container {
   border: 5px dashed orange;
 
-  display: inline-grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
   width: 150px;
