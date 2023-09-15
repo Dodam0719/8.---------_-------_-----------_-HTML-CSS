@@ -2,7 +2,7 @@ body {
   background-color: blanchedalmond;
 }
 
-@media all and (min-width: 300px) {
+@media (min-width: 300px) {
   body {
     background-color: tomato;
   }
