@@ -1,0 +1,13 @@
+body {
+  background-color: blanchedalmond;
+}
+
+/*
+and는 screen이라는 조건과 max-width: 300px이라는 조건을
+둘 다 만족해야 한다는 뜻
+*/
+@media screen and (max-width: 300px) {
+  body {
+    background-color: tomato;
+  }
+}
