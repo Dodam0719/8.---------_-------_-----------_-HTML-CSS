@@ -15,7 +15,7 @@ Container - justify-items, align-items
   grid-template-columns: repeat(3, 1fr);
 
   justify-items: center;
-  align-items: stretch;
+  align-items: center;
 }
 
 .item {
