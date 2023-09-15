@@ -11,7 +11,7 @@ Container - grid (shorthand)
 
   /* grid-template-columns: 100px 200px;
   grid-template-rows: 1fr 2fr; */
-  grid: 1fr 2fr / 100px 200px;
+  grid: 1fr 2fr / auto-flow 100px 200px;
 }
 
 .item {
