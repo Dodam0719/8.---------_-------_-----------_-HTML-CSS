@@ -1,0 +1,19 @@
+/*
+Grid
+
+Grid 단위 - auto-fill, auto-fit
+*/
+
+.container {
+  border: 5px dashed orange;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-auto-rows: 50px;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+}
