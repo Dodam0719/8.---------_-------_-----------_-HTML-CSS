@@ -22,5 +22,5 @@ Item - grid-row, grid-column
   background-color: coral;
 
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: -1;
 }
