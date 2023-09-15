@@ -6,10 +6,11 @@ Container - display
 
 .container {
   border: 5px dashed orange;
+  height: 400px;
 
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100px 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .item {
