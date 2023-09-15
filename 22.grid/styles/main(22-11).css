@@ -21,6 +21,6 @@ Item - grid-row, grid-column
 .item:first-child {
   background-color: coral;
 
-  grid-row-start: ;
-  grid-row-end: ;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
