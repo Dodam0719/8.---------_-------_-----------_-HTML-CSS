@@ -1,0 +1,24 @@
+/*
+Grid
+
+Container - row-gap, column-gap, gap
+*/
+
+.container {
+  border: 5px dashed orange;
+  width: 400px;
+  height: 400px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /* row-gap: 20px;
+  column-gap: 50px; */
+  gap: 20px 50px;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 30px;
+}
