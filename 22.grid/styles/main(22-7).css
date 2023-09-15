@@ -10,12 +10,14 @@ Container - grid-auto-flow
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-
-  grid-auto-flow: column;
 }
 
 .item {
   background-color: paleturquoise;
   border: 3px solid blue;
   font-size: 30px;
+}
+
+.item:nth-child(2) {
+  grid-column: span 3;
 }
