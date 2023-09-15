@@ -1,0 +1,19 @@
+/*
+Grid
+
+Grid 단위 - fr, min-content, max-content
+*/
+
+.container {
+  border: 5px dashed orange;
+
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: 100px 1fr 1fr;
+}
+
+.item {
+  background-color: paleturquoise;
+  border: 3px solid blue;
+  font-size: 24px;
+}
